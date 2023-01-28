@@ -1,0 +1,62 @@
+body {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  background-color: rgba($color: rgb(179, 229, 233), $alpha: 1);
+  width: 100vw;
+  height: 10vh;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.418);
+}
+
+header img {
+  width: 15vh;
+  margin-top: 2vh;
+  border-radius: 50%;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+main { 
+  background-color: aliceblue;
+  width: 100vw;
+  height: 90vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.form_comp{
+  padding: 80px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+label {
+  text-transform: uppercase;
+  font-family: 'Saira', sans-serif;
+  display: flex;
+}
+label::after {
+  content: ":";
+}
+
+input {
+  border-radius: 10px;
+  padding: 3px 20px;
+  outline: none;
+}
+
+.btnEnviar {
+  cursor: pointer;
+  margin-top: 10px;
+  width: 200px;
+}

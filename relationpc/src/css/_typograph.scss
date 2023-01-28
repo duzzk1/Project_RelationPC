@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira:wght@100;400;700&display=swap');
+
+* {
+  font-family: 'Saira', sans-serif;
+}
+
+.btnEnviar{
+  text-transform: uppercase;
+  font-weight: 600;
+  background-color: rgb(62, 168, 255);
+  color: white;
+  padding: 5px 25px;
+}
+
+.btnEnviar:hover {
+  background-color: rgb(0, 119, 255);
+  transition: 1s;
+}
