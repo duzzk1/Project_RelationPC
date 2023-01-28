@@ -26,10 +26,37 @@ main {
 }
 
 .form {
-  background-color: black;
-  width: 500px;
-  height: 500px;
   display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.form_comp{
+  padding: 80px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+
+label {
+  text-transform: uppercase;
+  font-family: 'Saira', sans-serif;
+  display: flex;
+}
+label::after {
+  content: ":";
+}
+
+input {
+  border-radius: 10px;
+  padding: 3px 20px;
+  outline: none;
+}
+
+.btnEnviar {
+  cursor: pointer;
+  margin-top: 10px;
+  width: 200px;
 }
